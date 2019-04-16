@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="leaftlet/leaflet.css"/>
+    <script src="leaftlet/leaflet.js"></script>
+    <!--百度API-->
+    <!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=8tlxNshd1gxOgspLTCxLhIfb1nljODat"></script>-->
+    <script type="text/javascript" src="js/d3.js"></script>
+
+    <!--<script type="text/javascript" src="js/Pie chart using idea.js"></script>-->
+
+    <style>
+        *{
+            padding: 0px;
+        }
+        .manCheckbox{
+            position: absolute;
+            zoom: 200%;
+            transform: translate(0,-10);
+        }
+        .womanCheckbox{
+            position: absolute;
+            zoom:200%;
+        }
+        #radar{
+            margin-top: 15px;
+            /* top: 20px; */
+            position: relative;
+            /* margin-left: 600px; */
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="all">
+        <div id="rankbar">
+            <div id="rankbarTooltip">
+
+            </div>
+        </div>
+
+        <div id="tops">
+            <div id="mapid">
+                <h1>重庆网吧上网登记数据可视化</h1>
+                <h3 id="title">使用鼠标悬停选中网吧</h3>
+            </div>
+            <div id="pieChart">
+                <div id="pieChart1">
+                    <!--<div id="rectChart1"></div>-->
+                </div>
+                <div id="pieChart2">
+                    <!--<div id="rectChart2"></div>-->
+                </div>
+            </div>
+        </div>
+
+        <div id="bottoms">
+            <div id="lineChart"></div>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+<script type="text/javascript" src="js/panYi's LineChart.js"></script>
+<script type="text/javascript" src="js/PieChart.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/RankBarChart.js"></script>
+<script type="text/javascript" src="js/rect.js"></script>
+<script type="text/javascript" src="js/Scatter.js"></script>
+<script src="js/radar.js"></script>
+
+
